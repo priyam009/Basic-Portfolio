@@ -1,3 +1,7 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   background-image: url("../images/fabric.png");
   margin: 0;
@@ -49,6 +53,7 @@ body {
   width: 100%;
   background: #777;
   height: 50px;
+  overflow: hidden;
 }
 
 .foot-bar h6 {
@@ -62,7 +67,7 @@ body {
 .container {
   box-sizing: border-box;
   width: 960px;
-  margin: 20px auto;
+  margin: 20px auto 80px;
   background: #fff;
   padding: 20px 50px;
 }
@@ -140,7 +145,7 @@ input[type=submit] {
   box-sizing: border-box;
   position: absolute;
   width: 100%;
-  bottom: -15px;
+  bottom: -10px;
   text-align: center;
   background: #4aaaa5;
   color: #fff;
